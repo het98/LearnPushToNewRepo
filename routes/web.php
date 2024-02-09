@@ -21,3 +21,4 @@ Route::get('/display', [App\Http\Controllers\ResizeImageController::class, 'inde
 Route::post('/resize-image', [App\Http\Controllers\ResizeImageController::class, 'resizeImage'])->name('resizeimage.store');
 Route::get('/zillow', [App\Http\Controllers\ResizeImageController::class, 'zillowAPI'])->name('zillowapi');
 Route::get('/test-method', [App\Http\Controllers\ResizeImageController::class, 'TestDataMethod'])->name('test');
+Route::get('/aaaa', [App\Http\Controllers\ResizeImageController::class, 'aaaaaa'])->name('aaa');
