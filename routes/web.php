@@ -20,4 +20,4 @@ Route::get('/', function () {
 Route::get('/display', [App\Http\Controllers\ResizeImageController::class, 'index'])->name('display.index');
 Route::post('/resize-image', [App\Http\Controllers\ResizeImageController::class, 'resizeImage'])->name('resizeimage.store');
 Route::get('/zillow', [App\Http\Controllers\ResizeImageController::class, 'zillowAPI'])->name('zillowapi');
-Route::get('/test', [App\Http\Controllers\ResizeImageController::class, 'test'])->name('test');
+Route::get('/test', [App\Http\Controllers\ResizeImageController::class, 'TestData'])->name('test');
